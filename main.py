@@ -1,9 +1,10 @@
 import pyautogui, time
 print("Welcome to the Script Spammer, do you want to use it ? Y/N")
 answ = input("")
+time = input("How much time do you need before clicking in the tchat box ? :")
 
 if answ in ["Yes", "yes", "Y", "y"]:
-    start()
+    start(time)
 if answ in ["No", "no", "N", "n"]:
     print("Ok, ending the program...")
     pass
